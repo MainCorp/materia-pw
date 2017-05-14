@@ -1,14 +1,209 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Overthrow PW</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-  </body>
+    <body>
+        <header class="page-header">
+            <div class="page-header__wrapper">
+                <div class="logo">
+                    <a class="logo__title" href="#">Overthrow PW</a>
+                </div>
+
+                <nav class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">Новости</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">О сервере</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">Сообщество</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">Поддержка</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="page-content">
+            <section class="page-content__wrapper">
+                <div class="top-buttons">
+                    <a class="top-buttons__download" href="#">Загрузить</a>
+                    <a class="top-buttons__link  top-buttons__link--lk" href="#">Личный кабинет</a>
+                    <a class="top-buttons__link  top-buttons__link--donate" href="#">Пополнить</a>
+                    <a class="top-buttons__link  top-buttons__link--support" href="#">F.A.Q</a>
+                    <a class="top-buttons__link  top-buttons__link--shares" href="#">Акции</a>
+                </div>
+
+                <div class="top-gallery">
+                    <input id="top-gallery__btn-1" class="top-gallery__input" type="radio" name="top-gallery__toggle">
+                    <input id="top-gallery__btn-2" class="top-gallery__input" type="radio" name="top-gallery__toggle">
+                    <input id="top-gallery__btn-3" class="top-gallery__input" type="radio" name="top-gallery__toggle">
+                    <input id="top-gallery__btn-4" class="top-gallery__input" type="radio" name="top-gallery__toggle">
+                    <input id="top-gallery__btn-5" class="top-gallery__input" type="radio" name="top-gallery__toggle">
+                    <input id="top-gallery__btn-6" class="top-gallery__input" type="radio" name="top-gallery__toggle">
+
+                    <div class="top-gallery__controll">
+                        <label class="top-gallery__label" for="top-gallery__btn-1"></label>
+                        <label class="top-gallery__label" for="top-gallery__btn-2"></label>
+                        <label class="top-gallery__label" for="top-gallery__btn-3"></label>
+                        <label class="top-gallery__label" for="top-gallery__btn-4"></label>
+                        <label class="top-gallery__label" for="top-gallery__btn-5"></label>
+                        <label class="top-gallery__label" for="top-gallery__btn-6"></label>
+                    </div>
+
+                    <div class="top-gallery__content">
+                        <div class="slide  slide--first">
+                            <p class="slide__title">Фонтан приключений</p>
+                            <p class="slide__desc">Проверь свои умения на деле</p>
+                        </div>
+                    </div>
+
+                    <div class="events">
+                        <div class="events__header">
+                            <h2 class="block-title  block-title--color">События</h2>
+                            <a class="events__h-link" href="#">Трансляция</a>
+                        </div>
+                        <div class="events__gallery">
+                            <input id="events__g-btn-1" class="events__input" type="radio" name="events__toggle">
+                            <input id="events__g-btn-2" class="events__input" type="radio" name="events__toggle">
+                            <input id="events__g-btn-3" class="events__input" type="radio" name="events__toggle">
+                            <input id="events__g-btn-4" class="events__input" type="radio" name="events__toggle">
+                            <input id="events__g-btn-5" class="events__input" type="radio" name="events__toggle">
+                            <input id="events__g-btn-6" class="events__input" type="radio" name="events__toggle">
+                            <input id="events__g-btn-7" class="events__input" type="radio" name="events__toggle">
+
+                            <div class="events__controller">
+                                <label class="events__label" for="events__g-btn-1">Пн</label>
+                                <label class="events__label" for="events__g-btn-2">Вт</label>
+                                <label class="events__label" for="events__g-btn-3">Ср</label>
+                                <label class="events__label" for="events__g-btn-4">Чт</label>
+                                <label class="events__label" for="events__g-btn-5">Пт</label>
+                                <label class="events__label" for="events__g-btn-6">Сб</label>
+                                <label class="events__label" for="events__g-btn-7">Вс</label>
+                            </div>
+
+                            <div class="events__content">
+                                <div class="events__slide  events__slide--first">
+                                    <section class="events__s-item">
+                                        <p class="events__s-text  events__s-text">
+                                            Время: [<span class="events__s-text  events__s-text--allotment">21:30</span>]
+                                        </p>
+                                        <a class="events__s-link" href="#">Попробуй устоять!</a>
+                                    </section>
+
+                                    <section class="events__s-item">
+                                        <p class="events__s-text  events__s-text">
+                                            Время: [<span class="events__s-text  events__s-text--allotment">19:20</span>]
+                                        </p>
+                                        <a class="events__s-link" href="#">Вижу цель, бегу я в бой!</a>
+                                    </section>
+
+                                    <section class="events__s-item">
+                                        <p class="events__s-text  events__s-text">
+                                            Время: [<span class="events__s-text  events__s-text--allotment">17:15</span>]
+                                        </p>
+                                        <a class="events__s-link" href="#">Захват чужой крепости</a>
+                                    </section>
+
+                                    <section class="events__s-item">
+                                        <p class="events__s-text  events__s-text">
+                                            Время: [<span class="events__s-text  events__s-text--allotment">16:30</span>]
+                                        </p>
+                                        <a class="events__s-link" href="#">Карнавал красок</a>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page-content__wrapper">
+                <div class="auction">
+                    <h2 class="block-title">Товары с Аукциона</h2>
+
+                    <div class="auction__content">
+                        <section class="auction__item">
+                            <div class="auction__image-box">
+                                <img class="auction__image" src="#" width="50" height="50" alt="#">
+                            </div>
+
+                            <div class="auction__info">
+                                <p class="auction__info-title">Сфера чистого золота</p>
+
+                                <div class="auction__other">
+                                    <p class="auction__other-text">
+                                        Цена: <span class="auction__other-text  auction__other-text--allotment">9 монет</span>
+                                    </p>
+                                    <a class="page-button" href="#">Купить</a>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="auction__item">
+                            <div class="auction__image-box">
+                                <img class="auction__image" src="#" width="50" height="50" alt="#">
+                            </div>
+
+                            <div class="auction__info">
+                                <p class="auction__info-title">Сундук покрытый тайной</p>
+
+                                <div class="auction__other">
+                                    <p class="auction__other-text">
+                                        Цена: <span class="auction__other-text  auction__other-text--allotment">25 монет</span>
+                                    </p>
+                                    <a class="page-button" href="#">Купить</a>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="auction__item">
+                            <div class="auction__image-box">
+                                <img class="auction__image" src="#" width="50" height="50" alt="#">
+                            </div>
+
+                            <div class="auction__info">
+                                <p class="auction__info-title">Кристалл чудного света</p>
+
+                                <div class="auction__other">
+                                    <p class="auction__other-text">
+                                        Цена: <span class="auction__other-text  auction__other-text--allotment">18 монет</span>
+                                    </p>
+                                    <a class="page-button" href="#">Купить</a>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="auction__item">
+                            <div class="auction__image-box">
+                                <img class="auction__image" src="#" width="50" height="50" alt="#">
+                            </div>
+
+                            <div class="auction__info">
+                                <p class="auction__info-title">Монеты VIP статуса</p>
+
+                                <div class="auction__other">
+                                    <p class="auction__other-text">
+                                        Цена: <span class="auction__other-text  auction__other-text--allotment">80 монет</span>
+                                    </p>
+                                    <a class="page-button" href="#">Купить</a>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
