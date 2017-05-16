@@ -37,6 +37,8 @@
 
         <main class="page-content">
             <section class="page-content__wrapper">
+                <h2 class="section-title">Row-1</h2>
+
                 <div class="top-buttons">
                     <a class="top-buttons__download" href="#">Загрузить</a>
                     <a class="top-buttons__link  top-buttons__link--lk" href="#">Личный кабинет</a>
@@ -68,61 +70,69 @@
                             <p class="slide__desc">Проверь свои умения на деле</p>
                         </div>
                     </div>
+                </div>
 
-                    <div class="events">
-                        <div class="events__header">
-                            <h2 class="block-title  block-title--color">События</h2>
-                            <a class="events__h-link" href="#">Трансляция</a>
+                <div class="events">
+                    <div class="events__header">
+                        <h2 class="block-title  block-title--color">События</h2>
+                        <a class="events__h-link" href="#">Трансляция</a>
+                    </div>
+                    <div class="events__gallery">
+                        <input id="events__g-btn-1" class="events__input" type="radio" name="events__toggle">
+                        <input id="events__g-btn-2" class="events__input" type="radio" name="events__toggle">
+                        <input id="events__g-btn-3" class="events__input" type="radio" name="events__toggle">
+                        <input id="events__g-btn-4" class="events__input" type="radio" name="events__toggle">
+                        <input id="events__g-btn-5" class="events__input" type="radio" name="events__toggle">
+                        <input id="events__g-btn-6" class="events__input" type="radio" name="events__toggle">
+                        <input id="events__g-btn-7" class="events__input" type="radio" name="events__toggle">
+
+                        <div class="events__controller">
+                            <label class="events__label" for="events__g-btn-1">Пн</label>
+                            <label class="events__label" for="events__g-btn-2">Вт</label>
+                            <label class="events__label" for="events__g-btn-3">Ср</label>
+                            <label class="events__label" for="events__g-btn-4">Чт</label>
+                            <label class="events__label" for="events__g-btn-5">Пт</label>
+                            <label class="events__label" for="events__g-btn-6">Сб</label>
+                            <label class="events__label" for="events__g-btn-7">Вс</label>
                         </div>
-                        <div class="events__gallery">
-                            <input id="events__g-btn-1" class="events__input" type="radio" name="events__toggle">
-                            <input id="events__g-btn-2" class="events__input" type="radio" name="events__toggle">
-                            <input id="events__g-btn-3" class="events__input" type="radio" name="events__toggle">
-                            <input id="events__g-btn-4" class="events__input" type="radio" name="events__toggle">
-                            <input id="events__g-btn-5" class="events__input" type="radio" name="events__toggle">
-                            <input id="events__g-btn-6" class="events__input" type="radio" name="events__toggle">
-                            <input id="events__g-btn-7" class="events__input" type="radio" name="events__toggle">
 
-                            <div class="events__controller">
-                                <label class="events__label" for="events__g-btn-1">Пн</label>
-                                <label class="events__label" for="events__g-btn-2">Вт</label>
-                                <label class="events__label" for="events__g-btn-3">Ср</label>
-                                <label class="events__label" for="events__g-btn-4">Чт</label>
-                                <label class="events__label" for="events__g-btn-5">Пт</label>
-                                <label class="events__label" for="events__g-btn-6">Сб</label>
-                                <label class="events__label" for="events__g-btn-7">Вс</label>
-                            </div>
+                        <div class="events__content">
+                            <div class="events__slide  events__slide--first">
+                                <section class="events__s-item">
+                                    <h2 class="section-title">events-item-1</h2>
 
-                            <div class="events__content">
-                                <div class="events__slide  events__slide--first">
-                                    <section class="events__s-item">
-                                        <p class="events__s-text  events__s-text">
-                                            Время: [<span class="events__s-text  events__s-text--allotment">21:30</span>]
-                                        </p>
-                                        <a class="events__s-link" href="#">Попробуй устоять!</a>
-                                    </section>
+                                    <p class="events__s-text  events__s-text">
+                                        Время: [<span class="events__s-text  events__s-text--allotment">21:30</span>]
+                                    </p>
+                                    <a class="events__s-link" href="#">Попробуй устоять!</a>
+                                </section>
 
-                                    <section class="events__s-item">
-                                        <p class="events__s-text  events__s-text">
-                                            Время: [<span class="events__s-text  events__s-text--allotment">19:20</span>]
-                                        </p>
-                                        <a class="events__s-link" href="#">Вижу цель, бегу я в бой!</a>
-                                    </section>
+                                <section class="events__s-item">
+                                    <h2 class="section-title">events-item-2</h2>
 
-                                    <section class="events__s-item">
-                                        <p class="events__s-text  events__s-text">
-                                            Время: [<span class="events__s-text  events__s-text--allotment">17:15</span>]
-                                        </p>
-                                        <a class="events__s-link" href="#">Захват чужой крепости</a>
-                                    </section>
+                                    <p class="events__s-text  events__s-text">
+                                        Время: [<span class="events__s-text  events__s-text--allotment">19:20</span>]
+                                    </p>
+                                    <a class="events__s-link" href="#">Вижу цель, бегу я в бой!</a>
+                                </section>
 
-                                    <section class="events__s-item">
-                                        <p class="events__s-text  events__s-text">
-                                            Время: [<span class="events__s-text  events__s-text--allotment">16:30</span>]
-                                        </p>
-                                        <a class="events__s-link" href="#">Карнавал красок</a>
-                                    </section>
-                                </div>
+                                <section class="events__s-item">
+                                    <h2 class="section-title">events-item-3</h2>
+                                    
+                                    <p class="events__s-text  events__s-text">
+                                        Время: [<span class="events__s-text  events__s-text--allotment">17:15</span>]
+                                    </p>
+                                    <a class="events__s-link" href="#">Захват чужой крепости</a>
+                                </section>
+
+                                <section class="events__s-item">
+                                    <h2 class="section-title">events-item-4</h2>
+                                    
+                                    <p class="events__s-text  events__s-text">
+                                        Время: [<span class="events__s-text  events__s-text--allotment">16:30</span>]
+                                    </p>
+                                    <a class="events__s-link" href="#">Карнавал красок</a>
+                                </section>
                             </div>
                         </div>
                     </div>
@@ -130,11 +140,15 @@
             </section>
 
             <section class="page-content__wrapper">
+                <h2 class="section-title">Row-2</h2>
+                                    
                 <div class="auction">
                     <h2 class="block-title">Товары с Аукциона</h2>
 
                     <div class="auction__content">
                         <section class="auction__item">
+                            <h2 class="section-title">auction-item-1</h2>
+                                    
                             <div class="auction__image-box">
                                 <img class="auction__image" src="#" width="50" height="50" alt="#">
                             </div>
@@ -152,6 +166,8 @@
                         </section>
 
                         <section class="auction__item">
+                            <h2 class="section-title">auction-item-2</h2>
+
                             <div class="auction__image-box">
                                 <img class="auction__image" src="#" width="50" height="50" alt="#">
                             </div>
@@ -169,6 +185,8 @@
                         </section>
 
                         <section class="auction__item">
+                            <h2 class="section-title">auction-item-3</h2>
+
                             <div class="auction__image-box">
                                 <img class="auction__image" src="#" width="50" height="50" alt="#">
                             </div>
@@ -186,6 +204,8 @@
                         </section>
 
                         <section class="auction__item">
+                            <h2 class="section-title">auction-item-4</h2>
+
                             <div class="auction__image-box">
                                 <img class="auction__image" src="#" width="50" height="50" alt="#">
                             </div>
@@ -201,6 +221,111 @@
                                 </div>
                             </div>
                         </section>
+                    </div>
+                </div>
+
+                <div class="information">
+                    <input id="information__btn-1" class="information__input" type="radio" name="information__toggle">
+                    <input id="information__btn-2" class="information__input" type="radio" name="information__toggle">
+                    <input id="information__btn-3" class="information__input" type="radio" name="information__toggle">
+
+                    <div class="information__controll">
+                        <label class="information__label" for="information__btn-1">Новости</label>
+                        <label class="information__label" for="information__btn-2">Обновление</label>
+                        <label class="information__label" for="information__btn-3">Цели</label>
+                    </div>
+
+                    <div class="information__content">
+                        <div class="information__slide  information__slide--first">
+                            <div class="information__s-inner">
+                                <p class="information__s-title">
+                                    [<span class="information__other-text  information__other-text --allotment">Обновление</span>]
+                                    Добавление легендарной брони
+                                </p>
+                                <p class="information__s-date">12/09</p>
+                            </div>
+
+                            <div class="information__s-inner">
+                                <p class="information__s-title">
+                                    [<span class="information__other-text  information__other-text --allotment">Акции</span>]
+                                    Розыгрыш бонусных юаней
+                                </p>
+                                <p class="information__s-date">11/09</p>
+                            </div>
+
+                            <div class="information__s-inner">
+                                <p class="information__s-title">
+                                    [<span class="information__other-text  information__other-text --allotment">События</span>]
+                                    Внимание! внимание :) мировой ивент
+                                </p>
+                                <p class="information__s-date">10/09</p>
+                            </div>
+
+                            <div class="information__s-inner">
+                                <p class="information__s-title">
+                                    [<span class="information__other-text  information__other-text --allotment">Новое</span>]
+                                    Новые предметы в магазине и аукционе
+                                </p>
+                                <p class="information__s-date">08/09</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rating">
+                    <div class="rating__title">
+                        <p class="rating__t-text">Рейтинг</p>
+                    </div>
+
+                    <div class="rating__gallery">
+                        <input id="rating__btn-1" class="rating__input" type="radio" name="rating__toggle">
+                        <input id="rating__btn-2" class="rating__input" type="radio" name="rating__toggle">
+
+                        <div class="rating__controll">
+                            <label class="rating__label" for="rating__btn-1">Игроков</label>
+                            <label class="rating__label" for="rating__btn-2">Кланов</label>
+                        </div>
+
+                        <div class="rating__content">
+                            <div class="rating__slide  rating__slide--first">
+                                <div class="rating__image-box">
+                                    <img src="#" width="50" height="50" alt="#">
+                                </div>
+
+                                <div class="rating__image-box">
+                                    <img src="#" width="50" height="50" alt="#">
+                                </div>
+
+                                <div class="rating__image-box">
+                                    <img src="#" width="50" height="50" alt="#">
+                                </div>
+
+                                <div class="rating__image-box">
+                                    <img src="#" width="50" height="50" alt="#">
+                                </div>
+
+                                <div class="rating__image-box">
+                                    <img src="#" width="50" height="50" alt="#">
+                                </div>
+
+                                <div class="rating__image-box">
+                                    <img src="#" width="50" height="50" alt="#">
+                                </div>
+
+                                <div class="rating__image-box">
+                                    <img src="#" width="50" height="50" alt="#">
+                                </div>
+
+                                <div class="rating__image-box">
+                                    <img src="#" width="50" height="50" alt="#">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rating__inner-btn">
+                            <a class="rating__i-link" href="#">Детали</a>
+                            <a class="rating__i-link" href="#">Статистика</a>
+                        </div>
                     </div>
                 </div>
             </section>
