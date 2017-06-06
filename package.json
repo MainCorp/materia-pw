@@ -1,16 +1,16 @@
 {
-  "name": "overthrow-pw",
+  "name": "materia-pw",
   "version": "0.1.0",
   "private": true,
-  "description": "вёрстка проекта overthrow-pw",
+  "description": "вёрстка проекта Materia-pw",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MainCorp/overthrow-pw.git"
+    "url": "git+https://github.com/MainCorp/materia-pw.git"
   },
   "bugs": {
-    "url": "https://github.com/MainCorp/overthrow-pw/issues"
+    "url": "https://github.com/MainCorp/materia-pw/issues"
   },
-  "homepage": "https://github.com/MainCorp/overthrow-pw/issues#readme",
+  "homepage": "https://github.com/MainCorp/materia-pw/issues#readme",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "browser-sync": "^2.12.10",

@@ -9,7 +9,7 @@ var server = require("browser-sync");
 var wait = require("gulp-wait");
 
 gulp.task("style", function() {
-  gulp.src("sass/style.scss")
+  gulp.src("sass/style.sass")
     .pipe(wait(300))
     .pipe(plumber())
     .pipe(sass())
