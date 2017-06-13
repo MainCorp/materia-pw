@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../fonts/OpenSans.ttf"); }
+
+@font-face {
+  font-family: 'Constantia';
+  src: url("../fonts/Constantia.ttf"); }
+
+.block-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #cdcdcd; }
+
+body {
+  font-family: "OpenSans", "Arial", sans-serif; }
+
+.escape-link {
+  padding: 0 11px;
+  border: 1px solid #eb340e;
+  font-size: 14px;
+  color: #eb340e;
+  text-decoration: none; }
+
+.events__label {
+  font-size: 16px;
+  color: #cdcdcd; }
+
+.events__slide-text {
+  font-size: 14px;
+  color: #9e9e9e; }
+
+.events__time-text {
+  font-size: 14px;
+  color: #d42506; }
+
+.events__slide-link {
+  font-size: 14px;
+  color: #d6d6d6;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.logo__title {
+  font-family: "Constantia", "Tahoma", sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff; }
+
+.navigation__link {
+  font-size: 14px;
+  color: #9d9d9d;
+  text-decoration: none; }
+
+.page-gallery__slide-title {
+  font-size: 30px;
+  font-weight: 600;
+  background-color: rgba(213, 62, 7, 0.5); }
+
+.page-gallery__slide-desc {
+  font-size: 24px;
+  background-color: rgba(69, 30, 61, 0.5); }
+
+.page-header {
+  background-color: #171515; }
+
+.section-title {
+  font-size: 0; }
+
+.tile-buttons__download {
+  padding: 42px 52px 42px 97px;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ba1f06; }
+
+.tile-buttons__link {
+  padding: 55px 18px 15px 18px;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: #e4e4e4;
+  background: #181717 url("../img/tile-buttons__link.jpg"); }
