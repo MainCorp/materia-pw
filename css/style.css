@@ -6,6 +6,18 @@
   font-family: 'Constantia';
   src: url("../fonts/Constantia.ttf"); }
 
+.auction__info-title {
+  font-size: 14px;
+  color: #161f2d; }
+
+.auction__other-text {
+  font-size: 14px;
+  color: #676767; }
+
+.auction__text-allotment {
+  font-size: 14px;
+  color: #eb340e; }
+
 .block-title {
   font-size: 20px;
   font-weight: 600;
@@ -20,7 +32,8 @@ body {
   border: 1px solid #eb340e;
   font-size: 14px;
   color: #eb340e;
-  text-decoration: none; }
+  text-decoration: none;
+  background: transparent; }
 
 .events__label {
   font-size: 16px;
@@ -37,8 +50,7 @@ body {
 .events__slide-link {
   font-size: 14px;
   color: #d6d6d6;
-  text-decoration: none;
-  text-transform: uppercase; }
+  text-decoration: none; }
 
 .logo__title {
   font-family: "Constantia", "Tahoma", sans-serif;
@@ -55,10 +67,12 @@ body {
 .page-gallery__slide-title {
   font-size: 30px;
   font-weight: 600;
+  color: #fff;
   background-color: rgba(213, 62, 7, 0.5); }
 
 .page-gallery__slide-desc {
   font-size: 24px;
+  color: #fff;
   background-color: rgba(69, 30, 61, 0.5); }
 
 .page-header {
