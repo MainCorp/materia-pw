@@ -9,6 +9,14 @@
 	background: transparent;
 	transition: all .3s;
 
+	#{&}--size-lg {
+		display: block;
+		flex: 0 0 47%;
+		padding: 7px 0;
+
+		text-align: center;
+	}
+
 	#{&}:hover {
 		background-color: #eb340e;
 		border-color: #eb340e;

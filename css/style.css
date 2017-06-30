@@ -165,6 +165,11 @@ body {
   text-decoration: none;
   background: transparent;
   transition: all .3s; }
+  .escape-link--size-lg {
+    display: block;
+    flex: 0 0 47%;
+    padding: 7px 0;
+    text-align: center; }
   .escape-link:hover {
     background-color: #eb340e;
     border-color: #eb340e;
@@ -564,48 +569,53 @@ body {
     background: transparent url("../img/page-gallery__slide-bg.png") left top no-repeat;
     width: 496px;
     height: 285px;
-    z-index: 0; }
+    z-index: 0;
+    left: 0; }
   .page-gallery__slide--second::before {
     content: '';
     position: absolute;
     background: transparent url("../img/page-gallery__slide-bg.png") left top no-repeat;
     width: 496px;
     height: 285px;
-    z-index: 0; }
+    z-index: 0;
+    left: 0; }
   .page-gallery__slide--third::before {
     content: '';
     position: absolute;
     background: transparent url("../img/page-gallery__slide-bg.png") left top no-repeat;
     width: 496px;
     height: 285px;
-    z-index: 0; }
+    z-index: 0;
+    left: 0; }
   .page-gallery__slide--fourth::before {
     content: '';
     position: absolute;
     background: transparent url("../img/page-gallery__slide-bg.png") left top no-repeat;
     width: 496px;
     height: 285px;
-    z-index: 0; }
+    z-index: 0;
+    left: 0; }
   .page-gallery__slide--fifth::before {
     content: '';
     position: absolute;
     background: transparent url("../img/page-gallery__slide-bg.png") left top no-repeat;
     width: 496px;
     height: 285px;
-    z-index: 0; }
+    z-index: 0;
+    left: 0; }
   .page-gallery__slide--six::before {
     content: '';
     position: absolute;
     background: transparent url("../img/page-gallery__slide-bg.png") left top no-repeat;
     width: 496px;
     height: 285px;
-    z-index: 0; }
+    z-index: 0;
+    left: 0; }
 
 .page-gallery__slide-title {
   flex: 0 0 435px;
   -ms-grid-row-align: center;
       align-self: center;
-  margin: 0;
   padding: 15px 0;
   font-size: 30px;
   font-weight: 600;
@@ -626,7 +636,6 @@ body {
 
 .page-gallery__slide-desc {
   flex: 0 0 435px;
-  margin: 0;
   padding: 15px 0;
   font-size: 24px;
   color: #fff;
@@ -787,23 +796,33 @@ body {
     background-color: rgba(255, 255, 255, 0.5); }
 
 .rating {
-  flex: 0 0 290px;
-  outline: 1px solid red; }
+  flex: 0 0 290px; }
 
 .rating__inner {
   max-width: 252px;
+  min-height: 240px;
   padding: 13px 19px 10px 19px;
-  background: #fff; }
+  background: #fff;
+  margin-bottom: 10px; }
 
 .rating__controll {
   margin-top: 13px; }
 
+.rating__content {
+  margin-top: 20px; }
+
 .rating__slide {
-  display: flex;
+  display: none;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 7px 0; }
+
+.rating__inner-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
 
 .rating__image-box {
   width: 55px;
@@ -823,7 +842,22 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
-  background: url("../img/rating__external.jpg"); }
+  background: url("../img/rating__external.jpg");
+  transition: opacity .3s; }
+  .rating__external-link:hover {
+    opacity: .9; }
+
+.rating__gallery .input:nth-child(1):checked ~ .rating__content .rating__slide--first {
+  display: flex; }
+
+.rating__gallery .input:nth-child(1):checked ~ .rating__controll .label:nth-child(1)::before {
+  display: block; }
+
+.rating__gallery .input:nth-child(2):checked ~ .rating__content .rating__slide--second {
+  display: flex; }
+
+.rating__gallery .input:nth-child(2):checked ~ .rating__controll .label:nth-child(2)::before {
+  display: block; }
 
 .section-title {
   font-size: 0;
@@ -840,7 +874,7 @@ body {
 
 .tile-buttons__download {
   padding: 42px 0 42px 97px;
-  flex: 0 0 calc(100% - 97px);
+  flex: 0 0 193px;
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
@@ -863,7 +897,7 @@ body {
 
 .tile-buttons__link {
   padding: 55px 0 15px 0;
-  flex: 0 0 calc(50% - 1px);
+  flex: 0 0 144px;
   font-size: 14px;
   text-decoration: none;
   text-align: center;

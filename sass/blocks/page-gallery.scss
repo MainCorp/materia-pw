@@ -27,6 +27,7 @@
 		width: 496px;
 		height: 285px;
 		z-index: 0;
+		left: 0;
 	}
 
 	#{&}--second::before {
@@ -36,6 +37,7 @@
 		width: 496px;
 		height: 285px;
 		z-index: 0;
+		left: 0;
 	}
 
 	#{&}--third::before {
@@ -45,6 +47,7 @@
 		width: 496px;
 		height: 285px;
 		z-index: 0;
+		left: 0;
 	}
 
 	#{&}--fourth::before {
@@ -54,6 +57,7 @@
 		width: 496px;
 		height: 285px;
 		z-index: 0;
+		left: 0;
 	}
 
 	#{&}--fifth::before {
@@ -63,6 +67,7 @@
 		width: 496px;
 		height: 285px;
 		z-index: 0;
+		left: 0;
 	}
 
 	#{&}--six::before {
@@ -72,13 +77,13 @@
 		width: 496px;
 		height: 285px;
 		z-index: 0;
+		left: 0;
 	}
 }
 
 .page-gallery__slide-title {
 	flex: 0 0 435px;
 	align-self: center;
-	margin: 0;
 	padding: 15px 0;
 
 	font-size: 30px;
@@ -104,7 +109,6 @@
 }
 .page-gallery__slide-desc {
 	flex: 0 0 435px;
-	margin: 0;
 	padding: 15px 0;
 
 	font-size: 24px;

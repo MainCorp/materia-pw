@@ -1,24 +1,36 @@
 .rating {
 	flex: 0 0 290px;
-	outline: 1px solid red;
 }
 
 .rating__inner {
 	max-width: 252px;
+	min-height: 240px;
 	padding: 13px 19px 10px 19px;
 	background: #fff;
+	margin-bottom: 10px;
 }
 
 .rating__controll {
 	margin-top: 13px;
 }
 
+.rating__content {
+	margin-top: 20px;
+}
+
 .rating__slide {
-	display: flex;
+	display: none;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin: 7px 0;
+}
+
+.rating__inner-btn {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .rating__image-box {
@@ -43,4 +55,26 @@
 	font-weight: bold;
 
 	background: url('../img/rating__external.jpg');
+
+	transition: opacity .3s;
+
+	#{&}:hover {
+		opacity: .9;
+	}
+}
+
+.rating__gallery .input:nth-child(1):checked ~ .rating__content .rating__slide--first {
+	display: flex;
+}
+
+.rating__gallery .input:nth-child(1):checked ~ .rating__controll .label:nth-child(1)::before {
+	display: block;
+}
+
+.rating__gallery .input:nth-child(2):checked ~ .rating__content .rating__slide--second {
+	display: flex;
+}
+
+.rating__gallery .input:nth-child(2):checked ~ .rating__controll .label:nth-child(2)::before {
+	display: block;
 }
