@@ -1,16 +1,49 @@
+.tile-buttons {
+	display: flex;
+	flex-wrap: wrap;
+
+	flex: 0 0 290px;
+}
+
 .tile-buttons__download {
-	padding: 42px 52px 42px 97px;
+	padding: 42px 0 42px 97px;
+	flex: 0 0 calc(100% - 97px);
 
 	font-size: 24px;
+	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #fff;
 
-	background-color: #ba1f06;
+	background: #ba1f06;
+	// background: linear-gradient(to right, #ba1f06, #bf2207, #ba1f06); 
+
+	position: relative;
+
+	transition: all .3s;
+
+	#{&}::before {
+		content: '';
+		position: absolute;
+		left: 59px;
+		
+		width: 29px;
+		height: 29px;
+		background: url('../img/download.png');
+	}
+
+	#{&}:hover {
+		background: #d2270c;
+	}
+
+	#{&}:active {
+		opacity: .9;
+	}
 }
 
 .tile-buttons__link {
-	padding: 55px 18px 15px 18px;
+	padding: 55px 0 15px 0;
+	flex: 0 0 calc(50% - 1px);
 
 	font-size: 14px;
 	text-decoration: none;
@@ -18,4 +51,117 @@
 	color: #e4e4e4;
 
 	background: #181717 url('../img/tile-buttons__link.jpg');
+
+	position: relative;
+	transition: all .3s;
+
+	#{&}::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+
+		width: 100%;
+		height: 4px;
+		background-color: #eb340e;
+
+		transform: scaleX(0);
+		transition: all .3s;
+	}
+
+	#{&}--lk::before {
+		content: '';
+		position: absolute;
+		background: url('../img/lk.png') center no-repeat;
+		width: 14px;
+		height: 18px;
+		padding: 0 3px;
+
+		top: 20px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+
+		border: 3px solid #eb340e;
+		border-radius: 5px;
+	}
+
+	#{&}--donate::before {
+		content: '';
+		position: absolute;
+		background: url('../img/donate.png') center no-repeat;
+		width: 14px;
+		height: 18px;
+		padding: 0 3px;
+
+		top: 20px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+
+		border: 3px solid #eb340e;
+		border-radius: 5px;
+	}
+
+	#{&}--support::before {
+		content: '';
+		position: absolute;
+		background: url('../img/faq.png') center no-repeat;
+		width: 14px;
+		height: 18px;
+		padding: 0 3px;
+
+		top: 20px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+
+		border: 3px solid #eb340e;
+		border-radius: 5px;
+	}
+
+	#{&}--shares::before {
+		content: '';
+		position: absolute;
+		background: url('../img/sale.png') center no-repeat;
+		width: 14px;
+		height: 18px;
+		padding: 0 3px;
+
+		top: 20px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+
+		border: 3px solid #eb340e;
+		border-radius: 5px;
+	}
+
+	#{&}--border-top {
+		border-top: 2px solid #050505;
+	}
+
+	#{&}--border-right {
+		border-right: 2px solid #050505;
+	}
+
+	#{&}--border-bottom {
+		border-bottom: 2px solid #050505;
+	}
+
+	#{&}--border-left {
+		border-left: 2px solid #050505;
+	}
+
+	#{&}:hover {
+		color: #fff;
+	}
+
+	#{&}:hover:after {
+		transform: scaleX(1);
+	}
+
+	#{&}:active {
+		opacity: .9;
+	}
 }

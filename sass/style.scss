@@ -1,6 +1,7 @@
 @import 'global/variables';
 @import 'global/mixin';
 @import 'global/fonts';
+@import 'global/container';
 
 @import 'blocks/about';
 @import 'blocks/advertising';
@@ -16,7 +17,10 @@
 @import 'blocks/events';
 @import 'blocks/footer-logo';
 @import 'blocks/information';
+@import 'blocks/input';
+@import 'blocks/label';
 @import 'blocks/logo';
+@import 'blocks/link-button';
 @import 'blocks/media';
 @import 'blocks/navigation';
 @import 'blocks/page-content';
@@ -24,6 +28,7 @@
 @import 'blocks/page-gallery';
 @import 'blocks/page-header';
 @import 'blocks/paper';
+@import 'blocks/preview';
 @import 'blocks/rating';
 @import 'blocks/section-title';
 @import 'blocks/social';

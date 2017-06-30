@@ -1,5 +1,5 @@
 .escape-link {
-	padding: 0 11px;
+	padding: 3px 11px;
 	border: 1px solid #eb340e;
 
 	font-size: 14px;
@@ -7,4 +7,11 @@
 	text-decoration: none;
 
 	background: transparent;
+	transition: all .3s;
+
+	#{&}:hover {
+		background-color: #eb340e;
+		border-color: #eb340e;
+		color: #fff;
+	}
 }

@@ -1,0 +1,13 @@
+.communication {
+	flex: 0 0 290px;
+	outline: 1px solid red;
+}
+
+.communication__desc {
+	font-size: 14px;
+	color: #161f2d;
+
+	#{&}--color-grey {
+		color: #727272;
+	}
+}

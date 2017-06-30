@@ -1,0 +1,23 @@
+.class-selection {
+	flex: 0 0 890px;
+	outline: 1px solid red;
+}
+
+.class-selection__label {
+	font-size: 16px;
+	color: #f4f4f4;
+}
+
+.class-selection__title {
+	font-size: 24px;
+	color: #eb340e;
+}
+
+.class-selection__text {
+	font-size: 14px;
+	color: #161f2d;
+
+	#{&}--bold {
+		font-weight: bold;
+	}
+}

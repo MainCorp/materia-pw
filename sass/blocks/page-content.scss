@@ -1,0 +1,30 @@
+.page-content {
+	position: relative;
+
+	#{&}::before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 1010px;
+		background: url('../img/top-bg.png') no-repeat;
+		background-size: contain;
+		background-position-x: 50%;
+		left: 0;
+		right: 0;
+		margin: 0 auto; 
+		z-index: -1;
+	}
+}
+
+.page-content__inner {
+	flex: 0 0 290px;
+	outline: 1px solid red;
+}
+
+.page-content__wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start; 
+}

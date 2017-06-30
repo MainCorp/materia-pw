@@ -1,0 +1,67 @@
+.preview {
+	padding: 130px 0 160px 0;
+
+	position: relative;
+
+	#{&}::before {
+		content: '';
+		position: absolute;
+		left: -140px;
+		top: 0;
+
+		background: url('../img/witch.png') no-repeat;
+		width: 815px;
+		height: 1181px;
+		z-index: -1;
+	}
+
+	#{&}::after {
+		content: '';
+		top: 0;
+		bottom: 0;
+		right: 0;
+		margin: auto 0;
+		position: absolute;
+
+		background: url('../img/preview.png');
+		width: 756px;
+		height: 392px;
+	}
+
+}
+
+.preview__play {
+	display: block;
+	width: 200px;
+	height: 200px;
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: 240px;
+
+	position: relative;
+	z-index: 1;
+
+	transition: background .3s;
+
+	#{&}::before {
+		content: '';
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		position: absolute;
+		width: 80px;
+		height: 80px;
+		background: url('../img/preview-play.png');
+	}
+
+	#{&}:hover {
+		background-color: rgba(255, 255, 255, .7);
+	}
+
+	#{&}:active {
+		background-color: rgba(255, 255, 255, .5);
+	}
+}

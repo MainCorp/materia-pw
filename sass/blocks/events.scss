@@ -1,9 +1,116 @@
+.events {
+	flex: 0 0 290px;
+    min-height: 285px;
+	background: rgba(32, 32, 32, .9);
+}
+
+.events__header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 7px 25px 7px 7px;
+
+	background: #1c1c1c;
+}
+
+.events__gallery {
+	padding: 7px 25px 7px 7px;
+	position: relative;
+}
+
+.events__slide {
+	display: none;
+}
+
+.events__slide-item {
+	padding: 6px 0 6px 50px;
+	border-bottom: 1px solid #343434;
+
+	#{&}:nth-child(1) {
+		border-top: 1px solid #343434;
+		position: relative;
+	}
+
+	#{&}:nth-child(2) {
+		position: relative;
+	}
+
+	#{&}:nth-child(3) {
+		position: relative;
+	}
+
+	#{&}:nth-child(4) {
+		position: relative;
+	}
+
+	#{&}:nth-child(1)::before {
+		content: '';
+		position: absolute;
+		left: 5px;
+		top: 0;
+		bottom: 0;
+		margin: auto 0;
+		width: 25px;
+		height: 25px;
+		background: transparent url('../img/events__item-1.png') left top no-repeat;
+	}
+
+	#{&}:nth-child(2)::before {
+		content: '';
+		position: absolute;
+		left: 5px;
+		top: 0;
+		bottom: 0;
+		margin: auto 0;
+		width: 25px;
+		height: 25px;
+		background: transparent url('../img/events__item-2.png') left top no-repeat;
+	}
+
+	#{&}:nth-child(3)::before {
+		content: '';
+		position: absolute;
+		left: 5px;
+		top: 0;
+		bottom: 0;
+		margin: auto 0;
+		width: 25px;
+		height: 25px;
+		background: transparent url('../img/events__item-3.png') left top no-repeat;
+	}
+
+	#{&}:nth-child(4)::before {
+		content: '';
+		position: absolute;
+		left: 5px;
+		top: 0;
+		bottom: 0;
+		margin: auto 0;
+		width: 25px;
+		height: 25px;
+		background: transparent url('../img/events__item-4.png') left top no-repeat;
+	}
+
+	#{&}:hover {
+		background: rgba(255, 255, 255, .1);
+	}
+}
+
+.events__controller {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 .events__label {
 	font-size: 16px;
 	color: #cdcdcd;
 }
 
 .events__slide-text {
+	margin: 0;
 	font-size: 14px;
 	color: #9e9e9e;
 }
@@ -17,4 +124,60 @@
 	font-size: 14px;
 	color: #d6d6d6;
 	text-decoration: none;
+}
+
+.events__gallery .input:nth-child(1):checked ~ .events__controller .label:nth-child(1)::before {
+	display: block
+}
+
+.events__gallery .input:nth-child(2):checked ~ .events__controller .label:nth-child(2)::before {
+	display: block
+}
+
+.events__gallery .input:nth-child(3):checked ~ .events__controller .label:nth-child(3)::before {
+	display: block
+}
+
+.events__gallery .input:nth-child(4):checked ~ .events__controller .label:nth-child(4)::before {
+	display: block
+}
+
+.events__gallery .input:nth-child(5):checked ~ .events__controller .label:nth-child(5)::before {
+	display: block
+}
+
+.events__gallery .input:nth-child(6):checked ~ .events__controller .label:nth-child(6)::before {
+	display: block
+}
+
+.events__gallery .input:nth-child(7):checked ~ .events__controller .label:nth-child(7)::before {
+	display: block
+}
+
+.events__gallery .input:nth-child(1):checked ~ .events__content .events__slide--first {
+	display: block;
+}
+
+.events__gallery .input:nth-child(2):checked ~ .events__content .events__slide--second {
+	display: block;
+}
+
+.events__gallery .input:nth-child(3):checked ~ .events__content .events__slide--third {
+	display: block;
+}
+
+.events__gallery .input:nth-child(4):checked ~ .events__content .events__slide--fourth {
+	display: block;
+}
+
+.events__gallery .input:nth-child(5):checked ~ .events__content .events__slide--fifth {
+	display: block;
+}
+
+.events__gallery .input:nth-child(6):checked ~ .events__content .events__slide--six {
+	display: block;
+}
+
+.events__gallery .input:nth-child(7):checked ~ .events__content .events__slide--seven {
+	display: block;
 }
