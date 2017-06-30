@@ -1,10 +1,14 @@
 .label {
 	font-size: 16px;
-	color: #cdcdcd;
+	color: #000;
 	padding: 0 6px 10px 6px;
 
 	position: relative;
 	cursor: pointer;
+
+	#{&}--color-grey {
+		color: #cdcdcd;
+	}
 
 	#{&}::before {
 		content: '';

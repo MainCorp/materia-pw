@@ -26,22 +26,10 @@
 .events__slide-item {
 	padding: 6px 0 6px 50px;
 	border-bottom: 1px solid #343434;
+	position: relative;
 
 	#{&}:nth-child(1) {
 		border-top: 1px solid #343434;
-		position: relative;
-	}
-
-	#{&}:nth-child(2) {
-		position: relative;
-	}
-
-	#{&}:nth-child(3) {
-		position: relative;
-	}
-
-	#{&}:nth-child(4) {
-		position: relative;
 	}
 
 	#{&}:nth-child(1)::before {
@@ -152,6 +140,38 @@
 
 .events__gallery .input:nth-child(7):checked ~ .events__controller .label:nth-child(7)::before {
 	display: block
+}
+
+.events__gallery .input:nth-child(1):checked ~ .events__content .events__slide--first {
+	display: block;
+}
+
+.events__gallery .input:nth-child(1):checked ~ .events__controller .label:nth-child(1) {
+	color: #eb340e;
+}
+
+.events__gallery .input:nth-child(2):checked ~ .events__controller .label:nth-child(2) {
+	color: #eb340e;
+}
+
+.events__gallery .input:nth-child(3):checked ~ .events__controller .label:nth-child(3) {
+	color: #eb340e;
+}
+
+.events__gallery .input:nth-child(4):checked ~ .events__controller .label:nth-child(4) {
+	color: #eb340e;
+}
+
+.events__gallery .input:nth-child(5):checked ~ .events__controller .label:nth-child(5) {
+	color: #eb340e;
+}
+
+.events__gallery .input:nth-child(6):checked ~ .events__controller .label:nth-child(6) {
+	color: #eb340e;
+}
+
+.events__gallery .input:nth-child(7):checked ~ .events__controller .label:nth-child(7) {
+	color: #eb340e;
 }
 
 .events__gallery .input:nth-child(1):checked ~ .events__content .events__slide--first {

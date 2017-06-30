@@ -3,10 +3,44 @@
 	outline: 1px solid red;
 }
 
+.rating__inner {
+	max-width: 252px;
+	padding: 13px 19px 10px 19px;
+	background: #fff;
+}
+
+.rating__controll {
+	margin-top: 13px;
+}
+
+.rating__slide {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 7px 0;
+}
+
+.rating__image-box {
+	width: 55px;
+	height: 55px;
+}
+
+.rating__image {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
 .rating__external-link {
+	display: block;
+	padding: 21px 0 15px 0;
 	font-size: 20px;
 	color: #fdfdfd;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
+	font-weight: bold;
+
+	background: url('../img/rating__external.jpg');
 }
