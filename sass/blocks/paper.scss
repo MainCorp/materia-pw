@@ -1,9 +1,73 @@
 .paper {
-	flex: 0 0 600px;
-	outline: 1px solid red;
+	flex: 0 0 580px;
+    min-height: 321.5px;	
+	padding: 22px 10px;
+	background: #fff;
+}
+
+.paper__slide {
+	display: none;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	margin-top: 10px;
+}
+
+.paper__slide-inner {
+	flex: 0 0 170px;
+	margin-bottom: 10px;
+}
+
+.paper__image-box {
+	width: 170px;
+	height: 105px;
+}
+
+.paper__image {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.paper__controll {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eaeaea;
+
+	position: relative;
+
+	#{&}::before {
+		content: '';
+		position: absolute;
+		right: 0;
+		top: 0;
+		background: transparent url('../img/plus.png') left top no-repeat;
+		width: 14px;
+		height: 14px;
+		cursor: pointer;
+	}
 }
 
 .paper__signature {
+	margin: 0;
+	margin-top: 5px;
 	font-size: 14px;
+	text-align: center;
 	color: #161f2d;
+}
+
+.paper .input:nth-child(1):checked ~ .paper__content .paper__slide--first {
+	display: flex;
+}
+
+.paper .input:nth-child(1):checked ~ .paper__controll .label:nth-child(1)::before {
+	display: block;
+}
+
+.paper .input:nth-child(2):checked ~ .paper__content .paper__slide--second {
+	display: flex;
+}
+
+.paper .input:nth-child(2):checked ~ .paper__controll .label:nth-child(2)::before {
+	display: block;
 }

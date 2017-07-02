@@ -17,6 +17,10 @@
 		color: #fff;
 	}
 
+	#{&}--m-top-none {
+		margin-top: 0;
+	}
+
 	#{&}::before {
 		content: '';
 		position: absolute;

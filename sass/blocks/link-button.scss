@@ -12,5 +12,14 @@
 	text-align: center;
 
 	background: #eb340e;
+	border: 1px solid #fff;
 	font-weight: 900;
+
+	transition: all .3s;
+
+	#{&}:hover {
+		color: #eb340e;
+		background: #fff;
+		border: 1px solid #eb340e;
+	}
 }

@@ -1,6 +1,24 @@
 .beginners {
-	flex: 0 0 290px;
-	outline: 1px solid red;
+	flex: 0 0 264px;
+	padding: 20px 13px 8px 20px;
+	margin-bottom: 10px;
+
+	background: #fff;
+}
+
+.beginners__list {
+	border-top: 1px solid #eaeaea;
+	padding-top: 8px;
+}
+
+.beginners__list-item {
+	padding: 5px 0;
+	border-bottom: 1px solid #fff;
+	transition: border .3s;
+
+	#{&}:hover {
+		border-color: #eb340e;
+	}
 }
 
 .beginners__list-title {

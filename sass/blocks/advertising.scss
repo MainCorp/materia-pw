@@ -1,12 +1,31 @@
 .advertising {
 	flex: 0 0 290px;
-	outline: 1px solid red;
+	padding: 20px 13px 8px 20px;
+
+	background: #1a1817;
+}
+
+.advertising__list {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	border-top: 1px solid #eaeaea;
+	padding-top: 4px;
 }
 
 .advertising__item {
+	padding: 5px 0;
+	border-bottom: 1px solid #1a1817;
+
 	font-size: 14px;
 	color: #fff;
 	text-decoration: none;
+	transition: border .3s;
+
+	#{&}:hover {
+		border-color: #eb340e;
+	}
 }
 
 .advertising__sending {
