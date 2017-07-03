@@ -1,14 +1,26 @@
 .trademark {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
 	flex: 0 0 600px;
-	outline: 1px solid red;
+}
+
+.trademark__inner {
+	flex: 0 0 500px;
 }
 
 .trademark__year {
+	margin: 0;
 	font-size: 14px;
 	color: #fff;
+
+	transform: rotate(-90deg);
 }
 
 .trademark__text {
+	margin: 0;
 	font-size: 14px;
 	color: #fff;
 }
@@ -16,4 +28,11 @@
 .trademark__link {
 	font-size: 14px;
 	color: #eb340e;
+	text-decoration: none;
+	opacity: .9;
+	transition: all .3s;
+
+	#{&}:hover {
+		text-decoration: underline;
+	}
 }

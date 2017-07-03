@@ -55,16 +55,19 @@
 	font-weight: bold;
 
 	background: url('../img/rating__external.jpg');
+	opacity: .9;
 
 	transition: opacity .3s;
 
 	#{&}:hover {
-		opacity: .9;
+		opacity: 1;
 	}
 }
 
 .rating__gallery .input:nth-child(1):checked ~ .rating__content .rating__slide--first {
 	display: flex;
+	animation: fade;
+	animation-duration: .3s;
 }
 
 .rating__gallery .input:nth-child(1):checked ~ .rating__controll .label:nth-child(1)::before {
@@ -73,6 +76,8 @@
 
 .rating__gallery .input:nth-child(2):checked ~ .rating__content .rating__slide--second {
 	display: flex;
+	animation: fade;
+	animation-duration: .3s;
 }
 
 .rating__gallery .input:nth-child(2):checked ~ .rating__controll .label:nth-child(2)::before {

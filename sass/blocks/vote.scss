@@ -1,4 +1,32 @@
-.vote {
-	flex: 0 0 290px;
-	outline: 1px solid red;
+.vote__inner {
+    border-top: 1px solid #464646;
+    padding-top: 15px;
+    margin: 15px 0 25px 0;
+}
+
+.vote__image {
+	display: block;
+	width: 251px;
+	height: 80px;
+	margin-bottom: 10px;
+	opacity: .9;
+	cursor: pointer;
+
+	transition: .3s;
+
+	#{&}--mmotop {
+		background: transparent url('../img/vote__image-1.jpg') left top no-repeat;
+	}
+
+	#{&}--qtop {
+		background: transparent url('../img/vote__image-2.jpg') left top no-repeat;
+	}
+
+	#{&}--gamerus {
+		background: transparent url('../img/vote__image-3.jpg') left top no-repeat;
+	}
+
+	#{&}:hover {
+		opacity: 1;
+	}
 }

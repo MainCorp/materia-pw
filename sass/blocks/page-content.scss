@@ -1,5 +1,6 @@
 .page-content {
 	position: relative;
+	padding-bottom: 10px;
 
 	#{&}::before {
 		content: '';

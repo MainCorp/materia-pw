@@ -176,28 +176,42 @@
 
 .events__gallery .input:nth-child(1):checked ~ .events__content .events__slide--first {
 	display: block;
+	animation: fade;
+	animation-duration: .3s;
 }
 
 .events__gallery .input:nth-child(2):checked ~ .events__content .events__slide--second {
 	display: block;
+	animation: fade;
+	animation-duration: .3s;
 }
 
 .events__gallery .input:nth-child(3):checked ~ .events__content .events__slide--third {
 	display: block;
+	animation: fade;
+	animation-duration: .3s;
 }
 
 .events__gallery .input:nth-child(4):checked ~ .events__content .events__slide--fourth {
 	display: block;
+	animation: fade;
+	animation-duration: .3s;
 }
 
 .events__gallery .input:nth-child(5):checked ~ .events__content .events__slide--fifth {
 	display: block;
+	animation: fade;
+	animation-duration: .3s;
 }
 
 .events__gallery .input:nth-child(6):checked ~ .events__content .events__slide--six {
 	display: block;
+	animation: fade;
+	animation-duration: .3s;
 }
 
 .events__gallery .input:nth-child(7):checked ~ .events__content .events__slide--seven {
 	display: block;
+	animation: fade;
+	animation-duration: .3s;
 }

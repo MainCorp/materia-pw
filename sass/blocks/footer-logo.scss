@@ -1,4 +1,17 @@
 .footer-logo {
 	flex: 0 0 290px;
-	outline: 1px solid red;
+}
+
+.footer-logo__link {
+	display: block;
+	width: 211px;
+	height: 94px;
+	
+	background: transparent url('../img/footer-logo.png') left top no-repeat;
+	opacity: .9;
+	transition: opacity .3s;
+
+	#{&}:hover {
+		opacity: 1;
+	}
 }

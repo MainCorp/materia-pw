@@ -160,6 +160,8 @@
 
 .class-selection .class-selection__input:nth-child(1):checked ~ .class-selection__content .class-selection__slide--first {
 	display: block;
+	animation: fade;
+	animation-duration: .8s;
 }
 
 .class-selection .class-selection__input:nth-child(2):checked ~ .class-selection__controller .class-selection__label--second {
@@ -169,6 +171,8 @@
 
 .class-selection .class-selection__input:nth-child(2):checked ~ .class-selection__content .class-selection__slide--second {
 	display: block;
+	animation: fade;
+	animation-duration: .8s;
 }
 
 .class-selection .class-selection__input:nth-child(3):checked ~ .class-selection__controller .class-selection__label--third {
@@ -178,4 +182,6 @@
 
 .class-selection .class-selection__input:nth-child(3):checked ~ .class-selection__content .class-selection__slide--third {
 	display: block;
+	animation: fade;
+	animation-duration: .8s;
 }

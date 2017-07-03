@@ -16,6 +16,7 @@
 	text-transform: uppercase;
 
 	margin-bottom: 7px;
+	opacity: .9;
 	transition: opacity .3s;
 
 	#{&}--bg-social {
@@ -39,6 +40,6 @@
 	}
 
 	#{&}:hover {
-		opacity: .9;
+		opacity: 1;
 	}
 }

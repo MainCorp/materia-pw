@@ -78,13 +78,19 @@
 }
 
 .information .input:nth-child(1):checked ~ .information__content .information__slide--first {
+	animation: fade;
+	animation-duration: .3s;
     display: block;
 }
 
 .information .input:nth-child(2):checked ~ .information__content .information__slide--second {
+	animation: fade;
+	animation-duration: .3s;
     display: block;
 }
 
 .information .input:nth-child(3):checked ~ .information__content .information__slide--third {
+	animation: fade;
+	animation-duration: .3s;
     display: block;
 }

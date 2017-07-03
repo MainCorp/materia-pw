@@ -7,6 +7,7 @@
 		<title>Materia</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery-3.2.1.min.js"></script>
     </head>
 
     <body>
@@ -14,7 +15,7 @@
             <div class="container">
                 <div class="page-header__inner">
                     <div class="logo">
-                        <a class="logo__title" href>Materia</a>
+                        <a class="logo__link" href>Materia</a>
                     </div>
 
                     <nav class="navigation">
@@ -956,41 +957,91 @@
                     <h2 class="section-title">Row-5</h2>
 
                     <div class="media">
-                        <h2 class="block-title  block-title--color-black">Медиафайлы</h2>
-
-                        <input id="media__btn-1" class="input" type="radio" name="media__toggle">
+                        <input id="media__btn-1" class="input" type="radio" name="media__toggle" checked>
                         <input id="media__btn-2" class="input" type="radio" name="media__toggle">
                         <input id="media__btn-3" class="input" type="radio" name="media__toggle">
 
-                        <div class="media__controller">
-                            <label class="label" for="media__btn-1">Видео</label>
-                            <label class="label" for="media__btn-2">Скриншоты</label>
-                            <label class="label" for="media__btn-3">Арт</label>
-                        </div>
+                        <div class="media__top-header">
+                            <h2 class="block-title block-title--color-black">Медиафайлы</h2>
 
-                        <a class="escape-link" href>Смотреть</a>
+                            <div class="media__controller">
+                                <label class="label" for="media__btn-1">Видео</label>
+                                <label class="label" for="media__btn-2">Скриншоты</label>
+                                <label class="label" for="media__btn-3">Арт</label>
+                            </div>
+
+                            <a class="media-all__link  escape-link  escape-link--size-md" href>Смотреть</a>
+                        </div>
 
                         <div class="media__gallery">
                             <div class="media__slide  media__slide--first">
                                 <div class="media__column  media__column--full-size">
-                                    <div class="media__image-box  media__image-box--first">
-                                        <img src="#" alt="#">
+                                    <div class="media__image-box media__image-box--size-lg  media__image-box--play">
+                                        <img class="media__image" src="img/media__full-img-1.jpg" alt="#">
                                     </div>
                                 </div>
 
-                                <div class="media__column  media__half---size">
-                                    <div class="media__image-box  media__image-box--second">
-                                        <img src="#" alt="#">
+                                <div class="media__column  media__column--half-size">
+                                    <div class="media__image-box  media__image-box--size-md  media__image-box--play">
+                                        <img class="media__image" src="img/media__half-img-1.jpg" alt="#">
                                     </div>
 
-                                    <div class="media__image-box  media__image-box--third">
-                                        <img src="#" alt="#">
+                                    <div class="media__image-box  media__image-box--size-md  media__image-box--play">
+                                        <img class="media__image" src="img/media__half-img-2.jpg" alt="#">
                                     </div>
                                 </div>
 
                                 <div class="media__column  media__column--full-size">
-                                    <div class="media__image-box  media__image-box--fourth">
-                                        <img src="#" alt="#">
+                                    <div class="media__image-box  media__image-box--size-lg  media__image-box--play">
+                                        <img class="media__image" src="img/media__full-img-2.jpg" alt="#">
+                                    </div>
+                                </div>
+                            </div>
+
+                             <div class="media__slide  media__slide--second">
+                                <div class="media__column  media__column--full-size">
+                                    <div class="media__image-box media__image-box--size-lg  media__image-box--play">
+                                        <img class="media__image" src="img/media__full-img-2.jpg" alt="#">
+                                    </div>
+                                </div>
+
+                                <div class="media__column  media__column--half-size">
+                                    <div class="media__image-box  media__image-box--size-md  media__image-box--play">
+                                        <img class="media__image" src="img/media__half-img-1.jpg" alt="#">
+                                    </div>
+
+                                    <div class="media__image-box  media__image-box--size-md  media__image-box--play">
+                                        <img class="media__image" src="img/media__half-img-2.jpg" alt="#">
+                                    </div>
+                                </div>
+
+                                <div class="media__column  media__column--full-size">
+                                    <div class="media__image-box  media__image-box--size-lg  media__image-box--play">
+                                        <img class="media__image" src="img/media__full-img-1.jpg" alt="#">
+                                    </div>
+                                </div>
+                            </div>
+
+                             <div class="media__slide  media__slide--third">
+                                <div class="media__column  media__column--full-size">
+                                    <div class="media__image-box media__image-box--size-lg  media__image-box--play">
+                                        <img class="media__image" src="img/media__full-img-1.jpg" alt="#">
+                                    </div>
+                                </div>
+
+                                <div class="media__column  media__column--half-size">
+                                    <div class="media__image-box  media__image-box--size-md  media__image-box--play">
+                                        <img class="media__image" src="img/media__half-img-2.jpg" alt="#">
+                                    </div>
+
+                                    <div class="media__image-box  media__image-box--size-md  media__image-box--play">
+                                        <img class="media__image" src="img/media__half-img-1.jpg" alt="#">
+                                    </div>
+                                </div>
+
+                                <div class="media__column  media__column--full-size">
+                                    <div class="media__image-box  media__image-box--size-lg  media__image-box--play">
+                                        <img class="media__image" src="img/media__full-img-2.jpg" alt="#">
                                     </div>
                                 </div>
                             </div>
@@ -1001,32 +1052,20 @@
                         <div class="vote">
                             <h2 class="block-title  block-title--color-white">Голосуйте за нас</h2>
 
-                            <div class="vote__image-box  vote__image-box--first">
-                                <img src="#" alt="#">
-                            </div>
-
-                            <div class="vote__image-box  vote__image-box--second">
-                                <img src="#" alt="#">
-                            </div>
-
-                            <div class="vote__image-box  vote__image-box--third">
-                                <img src="#" alt="#">
+                            <div class="vote__inner">
+                                <a class="vote__image  vote__image--mmotop" href></a>
+                                <a class="vote__image  vote__image--qtop" href></a>
+                                <a class="vote__image  vote__image--gamerus" href></a>
                             </div>
                         </div>
 
                         <div class="social">
                             <h2 class="block-title">Социальные сети</h2>
 
-                            <div class="social__image-box  social__image-box--first">
-                                <img src="#" alt="#">
-                            </div>
-
-                            <div class="social__image-box  social__image-box--second">
-                                <img src="#" alt="#">
-                            </div>
-
-                            <div class="social__image-box  social__image-box--third">
-                                <img src="#" alt="#">
+                            <div class="social__inner">
+                                <a class="social__image  social__image--fb" href></a>
+                                <a class="social__image  social__image--vk" href></a>
+                                <a class="social__image  social__image--yt" href></a>
                             </div>
                         </div>
                     </div>
@@ -1037,17 +1076,20 @@
         <footer class="page-footer">
             <div class="container">
                 <div class="page-footer__inner">
+
                     <div class="footer-logo">
-                        <img src="#" alt="#">
+                        <a class="footer-logo__link" href></a>
                     </div>
 
                     <div class="trademark">
-                        <p class="trademark__year">(c) 2016</p>
-                        <p class="trademark__text">
-                            Все права и торговые марки принадлежат компании Beijing Perfect World.
-                            Materia.pw  не является официальным локализатором игры Perfect World.
+                        <p class="trademark__year">&#169; 2016</p>
+                        <div class="trademark__inner">
+                            <p class="trademark__text">
+                                Все права и торговые марки принадлежат компании Beijing Perfect World.
+                                Materia.pw  не является официальным локализатором игры Perfect World.
+                            </p>
                             <a class="trademark__link" href>Правила и условия пользования</a>
-                        </p>
+                        </div>
                     </div>
 
                     <div class="copyright">
@@ -1057,5 +1099,78 @@
                 </div>
             </div>
         </footer>
+
+        <div class="promo">
+            <div class="promo__video-box">
+                <div class="promo__settings">
+                    <button class="promo__button  promo__button--curtail escape-link escape-link--size-md">Свернуть видео</button>
+
+                    <a class="promo__settings-link escape-link escape-link--size-md" href="https://www.youtube.com/channel/UCyhERDf91MxgDVOY1qXxOsQ" target="_blank" rel="noopener noreferrer">Перейти на канал</a>
+                </div>
+
+                <iframe width="760" height="415" src="https://www.youtube.com/embed/M-4dlAytNl0" frameborder="0" allowfullscreen></iframe>
+                
+            </div>
+        </div>
+
+        <div class="media-all">
+            <div class="media-all__content">
+                <div class="media-all__settings">
+                    <button class="media-all__button  media-all__button--curtail  escape-link  escape-link--size-md">Свернуть медиа-контент</button>
+
+                    <a class="media-all__settings-link escape-link escape-link--size-md" href="https://www.youtube.com/channel/UCyhERDf91MxgDVOY1qXxOsQ" target="_blank" rel="noopener noreferrer">Перейти на канал</a>
+                </div>
+
+                <div class="media-all__video">
+                    <iframe width="477" height="260" src="https://www.youtube.com/embed/M-4dlAytNl0" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="477" height="260" src="https://www.youtube.com/embed/M-4dlAytNl0" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="477" height="260" src="https://www.youtube.com/embed/M-4dlAytNl0" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="477" height="260" src="https://www.youtube.com/embed/M-4dlAytNl0" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+                <button class="media-all__button  media-all__button--download escape-link escape-link--size-lg">Загрузить ещё...</button>
+            </div>
+        </div>
+
+        <div class="preloader">
+            <div class="cssload-thecube">
+                <div class="cssload-cube cssload-c1"></div>
+                <div class="cssload-cube cssload-c2"></div>
+                <div class="cssload-cube cssload-c4"></div>
+                <div class="cssload-cube cssload-c3"></div>
+            </div>
+        </div>
+
+        <div class="polyrules">
+            <div class="polyrules__content">
+                <h2 class="polyrules__title">Условия и Соглашение.</h2>
+
+                <p class="polyrules__text">
+                    Если Вы хотите играть в полную версию игры, то Вам нужно перейти на официальный сервер ООО "Mail.ru" http://pw.mail.ru. Наш сервер является демонстрационным и использует не обновленную версию игры.
+                    Вы ответственны за любое действие, которое совершаете на данном сайте и сервере. Если Ваше действие нарушает федеральный, государственный или другой закон страны, в которой Вы проживаете, то администрация сервера "Атланта" никоим образом не несет за это ответственность. Вы можете использовать сайт и подключаться к серверу в пределах правил, объявленных сайтом и сервером «Атланта», явных или неявных. Любое нарушение правил может привести к судебному иску. В то время, когда сайт или сервер находится на реконструкции либо в работе, правила могут быть недоступны, но любые законы Вашей страны всегда в силе. Мы оставляем за собою право отказать Вам в доступе к этому сайту и серверу и Вы соглашаетесь со всеми условиями и правилами пользования данного вебсайта и сервера.
+                </p>
+                
+                <p class="polyrules__text">
+                    Если вы намерены просматривать, использовать сайт и сервер, то имейте ввиду, что любому человеку или организации, которые имеют отношение или связаны с ООО "Нивал Онлайн", Astrum Online Interteinment Limited, Pekin Perfect World Co, Mail.ru, вход на сайт, его просмотр и использование, а также вход на сервер и пребывание на нем ЗАПРЕЩЕН. Также запрещен доступ всем лицам и организациям, которые раскроют любую информацию и частные особенности данного вебсайта и сервера любой организации/корпорации/компании или другому юридическому и частному лицу (включая ООО "Нивал Онлайн", Astrum Online Interteinment Limited, Pekin Perfect World Co, Mail.ru). Этот ресурс и сервер являются частной собственностью и используется не для коммерции или выгоды. Если вы используете наши ссылки или файлы, подключаетесь к нашему серверу, то вы полностью подчиняетесь и соглашаетесь со всеми условиями и правилам данного сайта. 
+                </p>
+                
+                <p class="polyrules__text">
+                    Если какая-либо информация этого сайта и сервера была раскрыта какой-либо корпорации/компании/организации или какому-либо юридическому лицу, либо физическому лицу, которое имеет отношение или связано с ООО "Нивал Онлайн", Astrum Online Interteinment Limited, Pekin Perfect World Co, Mail.ru, то данное действие считается нарушением условий, правил и соглашения данного сайта и сервера. Информация будет считаться полученной незаконно и не допустима в суде, действующем по нормам общего права. 
+                </p>
+                
+                <p class="polyrules__text">
+                    Этот сайт и сервер не относятся к ООО "Нивал Онлайн", Astrum Online Interteinment Limited, Pekin Perfect World Co, Mail.ru.
+                </p>
+
+                <button class="polyrules__button  polyrules__button--curtail escape-link escape-link--size-md">Свернуть документ</button>
+            </div>
+        </div>
+
+        <style>/*
+            html, body * {
+                transition: all 0s !important;
+            }*/
+        </style>
+        <script src="js/scripts.js"></script>
     </body>
 </html>

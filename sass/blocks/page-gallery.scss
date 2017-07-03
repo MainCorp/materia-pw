@@ -204,24 +204,36 @@
 
 .page-gallery .page-gallery__input:nth-child(1):checked ~ .page-gallery__content .page-gallery__slide--first {
 	display: flex;
+	animation: fade;
+	animation-duration: .3s;
 }
 
 .page-gallery .page-gallery__input:nth-child(2):checked ~ .page-gallery__content .page-gallery__slide--second {
 	display: flex;
+	animation: fade;
+	animation-duration: .3s;
 }
 
 .page-gallery .page-gallery__input:nth-child(3):checked ~ .page-gallery__content .page-gallery__slide--third {
 	display: flex;
+	animation: fade;
+	animation-duration: .3s;
 }
 
 .page-gallery .page-gallery__input:nth-child(4):checked ~ .page-gallery__content .page-gallery__slide--fourth {
 	display: flex;
+	animation: fade;
+	animation-duration: .3s;
 }
 
 .page-gallery .page-gallery__input:nth-child(5):checked ~ .page-gallery__content .page-gallery__slide--fifth {
 	display: flex;
+	animation: fade;
+	animation-duration: .3s;
 }
 
 .page-gallery .page-gallery__input:nth-child(6):checked ~ .page-gallery__content .page-gallery__slide--six {
 	display: flex;
+	animation: fade;
+	animation-duration: .3s;
 }
