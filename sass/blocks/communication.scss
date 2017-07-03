@@ -1,13 +1,63 @@
 .communication {
-	flex: 0 0 290px;
-	outline: 1px solid red;
+	flex: 0 0 252px;
+	padding: 19px;
+	background: #fff;
+}
+
+.communication__image-box {
+	width: 130px;
+	height: 81px;
+
+	#{&}--sm {
+		width: 110px;
+	}
+}
+
+.communication__image {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.communication__inner {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	padding: 18px 0 17px 0;
+
+	border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.communication__list {
+	padding: 19px 0;
+}
+
+.communication__item {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	padding-bottom: 12px;
+
+	text-decoration: none;
 }
 
 .communication__desc {
+	margin: 0;
+
 	font-size: 14px;
 	color: #161f2d;
+	transition: color .3s;
 
 	#{&}--color-grey {
 		color: #727272;
 	}
+}
+
+.communication__item:hover .communication__desc {
+	color: #eb340e;
 }

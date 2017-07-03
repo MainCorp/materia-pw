@@ -1,12 +1,44 @@
 .attract-button {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	flex: 0 0 290px;
-	outline: 1px solid red;
+	min-height: 522px;
 }
 
 .attract-button__item {
+	padding: 50px 0;
 	font-size: 20px;
 	color: #fdfdfd;
+	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
+
+	margin-bottom: 7px;
+	transition: opacity .3s;
+
+	#{&}--bg-social {
+		background: transparent url('../img/attract-button__item-1.jpg') left top no-repeat;
+	}
+
+	#{&}--bg-about {
+		background: transparent url('../img/attract-button__item-2.jpg') left top no-repeat;
+	}
+
+	#{&}--bg-bonuce {
+		background: transparent url('../img/attract-button__item-3.jpg') left top no-repeat;
+	}
+
+	#{&}--bg-sentence {
+		background: transparent url('../img/attract-button__item-4.jpg') left top no-repeat;
+	}
+
+	#{&}--margin-none {
+		margin: 0;
+	}
+
+	#{&}:hover {
+		opacity: .9;
+	}
 }

@@ -9,6 +9,10 @@
 	background: transparent;
 	transition: all .3s;
 
+	#{&}--size-md {
+		padding: 5px 15px;
+	}
+
 	#{&}--size-lg {
 		display: block;
 		flex: 0 0 47%;
