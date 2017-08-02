@@ -45,12 +45,44 @@
 }
 
 .class-selection__slide {
+	position: relative;
+
 	display: none;
 	max-width: 360px;
 	padding: 15px 20px;
 	margin-top: 70px;
 	margin-bottom: 30px;
 	background: rgba(255, 255, 255, .7);
+
+	#{&}--first::before{
+		content: '';
+		position: absolute;
+		left: -413px;
+    	top: -88px;
+		width: 370px;
+		height: 450px;
+		background: url('../img/zoo.png');
+	}
+
+	#{&}--second::before{
+		content: '';
+		position: absolute;
+		left: -376px;
+    	top: -79px;
+		width: 370px;
+		height: 450px;
+		background: url('../img/humen.png');
+	}
+
+	#{&}--third::before{
+		content: '';
+		position: absolute;
+		left: -361px;
+    	top: -66px;
+		width: 370px;
+		height: 450px;
+		background: url('../img/sid.png');
+	}
 }
 
 .class-selection__top-inner {

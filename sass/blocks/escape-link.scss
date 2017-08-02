@@ -9,6 +9,11 @@
 	background: transparent;
 	transition: all .3s;
 
+	/* fix transform-scale animation */
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+
 	#{&}--size-md {
 		padding: 5px 15px;
 	}

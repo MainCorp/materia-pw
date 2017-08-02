@@ -1,475 +1,475 @@
-{
-	"page-header": {
-		"logo": {
-			"href": "http://materia-pw.ru/"
-		},
-
-		"navigation": {
-			"1": {
-				"name": "Новости",
-				"href": "/news"
-			},
-
-			"2": {
-				"name": "О сервере",
-				"href": "/about"
-			},
-
-			"3": {
-				"name": "Сообщество",
-				"href": "/forum"
-			},
-
-			"4": {
-				"name": "Поддержка",
-				"href": "/support"
-			}
-		}
-	},
-
-	"tile-buttons": {
-		"1": {
-			"name": "Загрузить",
-			"href": "/download"
-		},
-
-		"2": {
-			"name": "Личный кабинет",
-			"href": "/lk"
-		},
-
-		"3": {
-			"name": "Пополнить",
-			"href": "/donate"
-		},
-
-		"4": {
-			"name": "FAQ",
-			"href": "/faq"
-		},
-
-		"5": {
-			"name": "Акции",
-			"href": "/sale"
-		}
-	},
-
-	"page-gallery": {
-		"slide-1": {
-			"title": "- игровая версия 1.5.3",
-			"desc": "3 расы, 6 классов"
-		},
-
-		"slide-2": {
-			"title": "- макс. уровень 105",
-			"desc": "отсутствие пз/па камней"
-		},
-
-		"slide-3": {
-			"title": "PVP в Городе Драконов",
-			"desc": "переработанная система фарма и крафта"
-		},
-
-		"slide-4": {
-			"title": "- отсутствие заточки",
-			"desc": "изменён подход прокачки снаряжения"
-		},
-
-		"slide-5": {
-			"title": "- премиум аккаунты",
-			"desc": "введены актуальные ивенты"
-		},
-
-		"slide-6": {
-			"title": "- Множество стилей",
-			"desc": "питомцев и полётов"
-		}
-	},
-
-	"events": {
-		"escape-link": {
-			"title": "Трансляция",
-			"href": "http://materia-pw.ru/"
-		},
-
-		"events-schedule": {
-			"monday": {
-				"1": {
-					"time": "21:30",
-					"event": {
-						"title": "[Гайд] Попробуй устоять!",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"2": {
-					"time": "19:20",
-					"event": {
-						"title": "[Гайд] Вижу цель, иду к цели!",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"3": {
-					"time": "17:15",
-					"event": {
-						"title": "[Гайд] Захват чужой крепости",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"4": {
-					"time": "16:30",
-					"event": {
-						"title": "[Гайд] Карнавал красок",
-						"href": "http://materia-pw.ru/"
-					}
-				}
-			},
-
-			"tuesday": {
-				"1": {
-					"time": "21:30",
-					"event": {
-						"title": "[Гайд] Попробуй устоять!",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"2": {
-					"time": "19:20",
-					"event": {
-						"title": "[Гайд] Вижу цель, иду к цели!",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"3": {
-					"time": "17:15",
-					"event": {
-						"title": "[Гайд] Захват чужой крепости",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"4": {
-					"time": "16:30",
-					"event": {
-						"title": "[Гайд] Карнавал красок",
-						"href": "http://materia-pw.ru/"
-					}
-				}
-			},
-
-			"wednesday": {
-				"1": {
-					"time": "21:30",
-					"event": {
-						"title": "[Гайд] Попробуй устоять!",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"2": {
-					"time": "19:20",
-					"event": {
-						"title": "[Гайд] Вижу цель, иду к цели!",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"3": {
-					"time": "17:15",
-					"event": {
-						"title": "[Гайд] Захват чужой крепости",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"4": {
-					"time": "16:30",
-					"event": {
-						"title": "[Гайд] Карнавал красок",
-						"href": "http://materia-pw.ru/"
-					}
-				}
-			},
-
-			"thursday": {
-				"1": {
-					"time": "21:30",
-					"event": {
-						"title": "[Гайд] Попробуй устоять!",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"2": {
-					"time": "19:20",
-					"event": {
-						"title": "[Гайд] Вижу цель, иду к цели!",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"3": {
-					"time": "17:15",
-					"event": {
-						"title": "[Гайд] Захват чужой крепости",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"4": {
-					"time": "16:30",
-					"event": {
-						"title": "[Гайд] Карнавал красок",
-						"href": "http://materia-pw.ru/"
-					}
-				}
-			},
-
-			"friday": {
-				"1": {
-					"time": "21:30",
-					"event": {
-						"title": "[Гайд] Попробуй устоять!",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"2": {
-					"time": "19:20",
-					"event": {
-						"title": "[Гайд] Вижу цель, иду к цели!",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"3": {
-					"time": "17:15",
-					"event": {
-						"title": "[Гайд] Захват чужой крепости",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"4": {
-					"time": "16:30",
-					"event": {
-						"title": "[Гайд] Карнавал красок",
-						"href": "http://materia-pw.ru/"
-					}
-				}
-			},
-
-			"saturday": {
-				"1": {
-					"time": "21:30",
-					"event": {
-						"title": "[Гайд] Попробуй устоять!",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"2": {
-					"time": "19:20",
-					"event": {
-						"title": "[Гайд] Вижу цель, иду к цели!",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"3": {
-					"time": "17:15",
-					"event": {
-						"title": "[Гайд] Захват чужой крепости",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"4": {
-					"time": "16:30",
-					"event": {
-						"title": "[Гайд] Карнавал красок",
-						"href": "http://materia-pw.ru/"
-					}
-				}
-			},
-
-			"sunday": {
-				"1": {
-					"time": "21:30",
-					"event": {
-						"title": "[Гайд] Попробуй устоять!",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"2": {
-					"time": "19:20",
-					"event": {
-						"title": "[Гайд] Вижу цель, иду к цели!",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"3": {
-					"time": "17:15",
-					"event": {
-						"title": "[Гайд] Захват чужой крепости",
-						"href": "http://materia-pw.ru/"
-					}
-				},
-
-				"4": {
-					"time": "16:30",
-					"event": {
-						"title": "[Гайд] Карнавал красок",
-						"href": "http://materia-pw.ru/"
-					}
-				}
-			}
-		}
-	},
-
-	"auction": {
-		"item-1": {
-			"image": {
-				"src": "img/auction__item-1.png",
-				"alt": "item-1"
-			},
-
-			"title": "Сфера чистого золота",
-			"price": "9 монет",
-			"href": "http://materia-pw.ru/"
-		},
-
-		"item-2": {
-			"image": {
-				"src": "img/auction__item-2.png",
-				"alt": "item-2"
-			},
-
-			"title": "Сундук покрытый тайной",
-			"price": "25 монет",
-			"href": "http://materia-pw.ru/"
-		},
-
-		"item-3": {
-			"image": {
-				"src": "img/auction__item-3.png",
-				"alt": "item-3"
-			},
-
-			"title": "Кристалл чудного света",
-			"price": "18 монет",
-			"href": "http://materia-pw.ru/"
-		},
-
-		"item-4": {
-			"image": {
-				"src": "img/auction__item-4.png",
-				"alt": "item-4"
-			},
-
-			"title": "Монеты VIP статуса",
-			"price": "80 монет",
-			"href": "http://materia-pw.ru/"
-		}
-	},
-
-	"rating": {
-		"rating__link": "http://materia-pw.ru/rating",
-
-		"players": {
-			"1": {
-				"src": "img/rating__image-1.png",
-				"alt": "игрок"
-			},
-
-			"2": {
-				"src": "img/rating__image-2.png",
-				"alt": "игрок"
-			},
-
-			"3": {
-				"src": "img/rating__image-3.png",
-				"alt": "игрок"
-			},
-
-			"4": {
-				"src": "img/rating__image-4.png",
-				"alt": "игрок"
-			},
-
-			"5": {
-				"src": "img/rating__image-5.png",
-				"alt": "игрок"
-			},
-
-			"6": {
-				"src": "img/rating__image-6.png",
-				"alt": "игрок"
-			},
-
-			"7": {
-				"src": "img/rating__image-7.png",
-				"alt": "игрок"
-			},
-
-			"8": {
-				"src": "img/rating__image-8.png",
-				"alt": "игрок"
-			}
-		},
-
-		"guilds": {
-			"1": {
-				"src": "img/rating__image-8.png",
-				"alt": "гильдия"
-			},
-
-			"2": {
-				"src": "img/rating__image-7.png",
-				"alt": "гильдия"
-			},
-
-			"3": {
-				"src": "img/rating__image-6.png",
-				"alt": "гильдия"
-			},
-
-			"4": {
-				"src": "img/rating__image-5.png",
-				"alt": "гильдия"
-			},
-
-			"5": {
-				"src": "img/rating__image-4.png",
-				"alt": "гильдия"
-				},
-
-			"6": {
-				"src": "img/rating__image-3.png",
-				"alt": "гильдия"
-			},
-
-			"7": {
-				"src": "img/rating__image-2.png",
-				"alt": "гильдия"
-			},
-
-			"8": {
-				"src": "img/rating__image-1.png",
-				"alt": "гильдия"
-			}
-		},
-
-		"rating__dop-link": {
-			"src_detail": "http://materia-pw.ru/detail",
-			"src_statistic": "http://materia-pw.ru/statistic",
-			"src_gvg": "http://materia-pw.ru/gvg"
-		}
-	}
-}
+// {
+// 	"page-header": {
+// 		"logo": {
+// 			"href": "http://materia-pw.ru/"
+// 		},
+
+// 		"navigation": {
+// 			"1": {
+// 				"name": "Новости",
+// 				"href": "/news"
+// 			},
+
+// 			"2": {
+// 				"name": "О сервере",
+// 				"href": "/about"
+// 			},
+
+// 			"3": {
+// 				"name": "Сообщество",
+// 				"href": "/forum"
+// 			},
+
+// 			"4": {
+// 				"name": "Поддержка",
+// 				"href": "/support"
+// 			}
+// 		}
+// 	},
+
+// 	"tile-buttons": {
+// 		"1": {
+// 			"name": "Загрузить",
+// 			"href": "/download"
+// 		},
+
+// 		"2": {
+// 			"name": "Личный кабинет",
+// 			"href": "/lk"
+// 		},
+
+// 		"3": {
+// 			"name": "Пополнить",
+// 			"href": "/donate"
+// 		},
+
+// 		"4": {
+// 			"name": "FAQ",
+// 			"href": "/faq"
+// 		},
+
+// 		"5": {
+// 			"name": "Акции",
+// 			"href": "/sale"
+// 		}
+// 	},
+
+// 	"page-gallery": {
+// 		"slide-1": {
+// 			"title": "- игровая версия 1.5.3",
+// 			"desc": "3 расы, 6 классов"
+// 		},
+
+// 		"slide-2": {
+// 			"title": "- макс. уровень 105",
+// 			"desc": "отсутствие пз/па камней"
+// 		},
+
+// 		"slide-3": {
+// 			"title": "PVP в Городе Драконов",
+// 			"desc": "переработанная система фарма и крафта"
+// 		},
+
+// 		"slide-4": {
+// 			"title": "- отсутствие заточки",
+// 			"desc": "изменён подход прокачки снаряжения"
+// 		},
+
+// 		"slide-5": {
+// 			"title": "- премиум аккаунты",
+// 			"desc": "введены актуальные ивенты"
+// 		},
+
+// 		"slide-6": {
+// 			"title": "- Множество стилей",
+// 			"desc": "питомцев и полётов"
+// 		}
+// 	},
+
+// 	"events": {
+// 		"escape-link": {
+// 			"title": "Трансляция",
+// 			"href": "http://materia-pw.ru/"
+// 		},
+
+// 		"events-schedule": {
+// 			"monday": {
+// 				"1": {
+// 					"time": "21:30",
+// 					"event": {
+// 						"title": "[Гайд] Попробуй устоять!",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"2": {
+// 					"time": "19:20",
+// 					"event": {
+// 						"title": "[Гайд] Вижу цель, иду к цели!",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"3": {
+// 					"time": "17:15",
+// 					"event": {
+// 						"title": "[Гайд] Захват чужой крепости",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"4": {
+// 					"time": "16:30",
+// 					"event": {
+// 						"title": "[Гайд] Карнавал красок",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				}
+// 			},
+
+// 			"tuesday": {
+// 				"1": {
+// 					"time": "21:30",
+// 					"event": {
+// 						"title": "[Гайд] Попробуй устоять!",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"2": {
+// 					"time": "19:20",
+// 					"event": {
+// 						"title": "[Гайд] Вижу цель, иду к цели!",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"3": {
+// 					"time": "17:15",
+// 					"event": {
+// 						"title": "[Гайд] Захват чужой крепости",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"4": {
+// 					"time": "16:30",
+// 					"event": {
+// 						"title": "[Гайд] Карнавал красок",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				}
+// 			},
+
+// 			"wednesday": {
+// 				"1": {
+// 					"time": "21:30",
+// 					"event": {
+// 						"title": "[Гайд] Попробуй устоять!",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"2": {
+// 					"time": "19:20",
+// 					"event": {
+// 						"title": "[Гайд] Вижу цель, иду к цели!",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"3": {
+// 					"time": "17:15",
+// 					"event": {
+// 						"title": "[Гайд] Захват чужой крепости",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"4": {
+// 					"time": "16:30",
+// 					"event": {
+// 						"title": "[Гайд] Карнавал красок",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				}
+// 			},
+
+// 			"thursday": {
+// 				"1": {
+// 					"time": "21:30",
+// 					"event": {
+// 						"title": "[Гайд] Попробуй устоять!",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"2": {
+// 					"time": "19:20",
+// 					"event": {
+// 						"title": "[Гайд] Вижу цель, иду к цели!",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"3": {
+// 					"time": "17:15",
+// 					"event": {
+// 						"title": "[Гайд] Захват чужой крепости",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"4": {
+// 					"time": "16:30",
+// 					"event": {
+// 						"title": "[Гайд] Карнавал красок",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				}
+// 			},
+
+// 			"friday": {
+// 				"1": {
+// 					"time": "21:30",
+// 					"event": {
+// 						"title": "[Гайд] Попробуй устоять!",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"2": {
+// 					"time": "19:20",
+// 					"event": {
+// 						"title": "[Гайд] Вижу цель, иду к цели!",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"3": {
+// 					"time": "17:15",
+// 					"event": {
+// 						"title": "[Гайд] Захват чужой крепости",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"4": {
+// 					"time": "16:30",
+// 					"event": {
+// 						"title": "[Гайд] Карнавал красок",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				}
+// 			},
+
+// 			"saturday": {
+// 				"1": {
+// 					"time": "21:30",
+// 					"event": {
+// 						"title": "[Гайд] Попробуй устоять!",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"2": {
+// 					"time": "19:20",
+// 					"event": {
+// 						"title": "[Гайд] Вижу цель, иду к цели!",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"3": {
+// 					"time": "17:15",
+// 					"event": {
+// 						"title": "[Гайд] Захват чужой крепости",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"4": {
+// 					"time": "16:30",
+// 					"event": {
+// 						"title": "[Гайд] Карнавал красок",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				}
+// 			},
+
+// 			"sunday": {
+// 				"1": {
+// 					"time": "21:30",
+// 					"event": {
+// 						"title": "[Гайд] Попробуй устоять!",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"2": {
+// 					"time": "19:20",
+// 					"event": {
+// 						"title": "[Гайд] Вижу цель, иду к цели!",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"3": {
+// 					"time": "17:15",
+// 					"event": {
+// 						"title": "[Гайд] Захват чужой крепости",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				},
+
+// 				"4": {
+// 					"time": "16:30",
+// 					"event": {
+// 						"title": "[Гайд] Карнавал красок",
+// 						"href": "http://materia-pw.ru/"
+// 					}
+// 				}
+// 			}
+// 		}
+// 	},
+
+// 	"auction": {
+// 		"item-1": {
+// 			"image": {
+// 				"src": "img/auction__item-1.png",
+// 				"alt": "item-1"
+// 			},
+
+// 			"title": "Сфера чистого золота",
+// 			"price": "9 монет",
+// 			"href": "http://materia-pw.ru/"
+// 		},
+
+// 		"item-2": {
+// 			"image": {
+// 				"src": "img/auction__item-2.png",
+// 				"alt": "item-2"
+// 			},
+
+// 			"title": "Сундук покрытый тайной",
+// 			"price": "25 монет",
+// 			"href": "http://materia-pw.ru/"
+// 		},
+
+// 		"item-3": {
+// 			"image": {
+// 				"src": "img/auction__item-3.png",
+// 				"alt": "item-3"
+// 			},
+
+// 			"title": "Кристалл чудного света",
+// 			"price": "18 монет",
+// 			"href": "http://materia-pw.ru/"
+// 		},
+
+// 		"item-4": {
+// 			"image": {
+// 				"src": "img/auction__item-4.png",
+// 				"alt": "item-4"
+// 			},
+
+// 			"title": "Монеты VIP статуса",
+// 			"price": "80 монет",
+// 			"href": "http://materia-pw.ru/"
+// 		}
+// 	},
+
+// 	"rating": {
+// 		"rating__link": "http://materia-pw.ru/rating",
+
+// 		"players": {
+// 			"1": {
+// 				"src": "img/rating__image-1.png",
+// 				"alt": "игрок"
+// 			},
+
+// 			"2": {
+// 				"src": "img/rating__image-2.png",
+// 				"alt": "игрок"
+// 			},
+
+// 			"3": {
+// 				"src": "img/rating__image-3.png",
+// 				"alt": "игрок"
+// 			},
+
+// 			"4": {
+// 				"src": "img/rating__image-4.png",
+// 				"alt": "игрок"
+// 			},
+
+// 			"5": {
+// 				"src": "img/rating__image-5.png",
+// 				"alt": "игрок"
+// 			},
+
+// 			"6": {
+// 				"src": "img/rating__image-6.png",
+// 				"alt": "игрок"
+// 			},
+
+// 			"7": {
+// 				"src": "img/rating__image-7.png",
+// 				"alt": "игрок"
+// 			},
+
+// 			"8": {
+// 				"src": "img/rating__image-8.png",
+// 				"alt": "игрок"
+// 			}
+// 		},
+
+// 		"guilds": {
+// 			"1": {
+// 				"src": "img/rating__image-8.png",
+// 				"alt": "гильдия"
+// 			},
+
+// 			"2": {
+// 				"src": "img/rating__image-7.png",
+// 				"alt": "гильдия"
+// 			},
+
+// 			"3": {
+// 				"src": "img/rating__image-6.png",
+// 				"alt": "гильдия"
+// 			},
+
+// 			"4": {
+// 				"src": "img/rating__image-5.png",
+// 				"alt": "гильдия"
+// 			},
+
+// 			"5": {
+// 				"src": "img/rating__image-4.png",
+// 				"alt": "гильдия"
+// 				},
+
+// 			"6": {
+// 				"src": "img/rating__image-3.png",
+// 				"alt": "гильдия"
+// 			},
+
+// 			"7": {
+// 				"src": "img/rating__image-2.png",
+// 				"alt": "гильдия"
+// 			},
+
+// 			"8": {
+// 				"src": "img/rating__image-1.png",
+// 				"alt": "гильдия"
+// 			}
+// 		},
+
+// 		"rating__dop-link": {
+// 			"src_detail": "http://materia-pw.ru/detail",
+// 			"src_statistic": "http://materia-pw.ru/statistic",
+// 			"src_gvg": "http://materia-pw.ru/gvg"
+// 		}
+// 	}
+// }

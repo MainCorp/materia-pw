@@ -3,6 +3,11 @@
 	flex-wrap: wrap;
 
 	flex: 0 0 290px;
+	
+	/* fix transform-scale animation */
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
 }
 
 .tile-buttons__download {

@@ -26,6 +26,10 @@
 		background: url('../img/preview.png');
 		width: 756px;
 		height: 392px;
+
+		@media screen and (max-width: 1210px) {
+			display: none;
+		}
 	}
 
 }
